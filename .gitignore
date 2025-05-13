@@ -1,0 +1,48 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+sdist/
+venv/  # If you named your virtual environment 'venv'
+.venv/ # If you named your virtual environment '.venv'
+env/   # Another common name for virtual environments
+myenv/ # Yet another common name
+
+# Jupyter Notebook-specific ignores
+.ipynb_checkpoints/
+
+# TensorFlow/Keras related
+*.h5
+*.keras
+saved_model/
+
+# Data and large files (uncomment if you have these directly in your repo)
+# *.csv
+# *.tsv
+# *.json
+# *.parquet
+# *.pt
+# *.bin
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+temp/
+tmp/
+
+# Compiled code
+*.so
+*.dylib
+
+# User-specific files (uncomment if you have these)
+# .idea/
+# .vscode/
+
+# Add any other files or directories you want to ignore
